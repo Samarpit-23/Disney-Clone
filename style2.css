@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.container {
+  margin: auto;
+  height: 100vh;
+  background: #f0f2f5;
+  padding: 72px 0 112px 0;
+}
+
+.container div {
+  padding: 20px;
+  /* flex: 1; */
+}
+
+.left-container {
+  /* outline: 1px dotted lime; */
+  float: left;
+  margin: 0px 0 0 0px;
+  font-size: 30px;
+  line-height: 0px;
+  width: 500px;
+
+}
+
+.left-container h1 {
+  color: #665CAC;
+  margin-bottom: 20px;
+  font-size: 3.7rem;
+  letter-spacing: -3px;
+}
+
+.right-container {
+  float: left;
+  max-width: 500px;
+  /* outline: 1px dotted red; */
+
+  margin: 200px 0 0 10px;
+
+}
+
+.right-container p {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.right-container p a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.right-container p a:hover {
+  text-decoration: underline;
+}
+
+.loginform {
+  background: #ffffff;
+  text-align: center;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.loginform input {
+  display: inline-block;
+  width: 100%;
+  font-size: 19px;
+  padding: 5px 10px;
+  line-height: 48px;
+  margin: 6px 0px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.loginform button {
+  height: 48px;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginform button[type="submit"] {
+  display: inline-block;
+  width: 100%;
+  font-size: 22px;
+  background: #665CAC;
+  color: #ffffff;
+}
+
+.loginform button[type="button"] {
+  margin-top: 16px;
+  background: #665CAC;
+  padding: 0px 16px;
+  color:white;
+  font-size: 19px;
+}
+
+.loginform a {
+  line-height: 48px;
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.loginform a:hover {
+  text-decoration: underline;
+}
+footer {
+  color: #737373;
+  margin: 0 auto;
+  width: 980px;
+  font-size: 16px;
+}
+
+footer li {
+  display: inline;
+}
+footer a {
+  text-decoration: none;
+}
+
+footer hr {
+  margin: 9px 0px;
+
+}
+
+footer p {
+  padding: 20px 0;
+}
